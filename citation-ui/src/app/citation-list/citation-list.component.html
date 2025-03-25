@@ -1,0 +1,85 @@
+<div class="container">
+    <div class="header">
+      <button>List Citation</button>
+      <button>Add Citation</button>
+      <button>Run Reports</button>
+      <button>Create / Modify Batch</button>
+      <button>Operate on Batch</button>
+    </div>
+  
+    <div class="search-form">
+      <div class="form-row">
+        <label for="primaryProgram">Primary Program:</label>
+        <input type="text" id="primaryProgram">
+        <label for="status">Status:</label>
+        <select id="status">
+          <option value=""></option> 
+        </select>
+      </div>
+  
+      <div class="form-row">
+        <label for="selectCitation">Select Citation Name or Description:</label>
+        <select id="selectCitation">
+          <option value=""></option>
+        </select>
+        <label for="searchOn">Search On:</label>
+        <select id="searchOn">
+          <option value=""></option>
+        </select>
+      </div>
+  
+      <div class="form-row">
+        <label for="enterCitation">Enter Citation Name or Description:</label>
+        <input type="text" id="enterCitation" placeholder="e.g. HW 310 CMR 30.0340(6)(c) II">
+        <label for="associatedProgram">Associated Program:</label>
+        <div class="checkbox-group">
+          <label><input type="checkbox" value="AQ-Asbestos">AQ-Asbestos</label>
+          <label><input type="checkbox" value="AQ-Greenhouse Gas">AQ-Greenhouse Gas</label>
+          <label><input type="checkbox" value="AQ-Low Emission Vehicles">AQ-Low Emission Vehicles</label>
+          <label><input type="checkbox" value="AQ-Mobile Sources">AQ-Mobile Sources</label>
+          <label><input type="checkbox" value="AQ-Outdoor Hydronic Heaters">AQ-Outdoor Hydronic Heaters</label>
+        </div>
+      </div>
+  
+      <div class="form-row">
+        <label for="batchName">Batch Name:</label>
+        <select id="batchName">
+          <option value=""></option>
+        </select>
+        <label for="readyToSunset">Ready to Sunset:</label>
+        <input type="checkbox" id="readyToSunset">
+      </div>
+  
+      <div class="form-row">
+        <button>CLEAR</button>
+        <button>SEARCH</button>
+      </div>
+    </div>
+  
+    <div class="citation-list">
+      <h2>Citation List:</h2>
+      <p>Total Citation(s) found:</p>
+      <table>
+        <thead>
+          <tr>
+            <th>View/Edit</th>
+            <th>Copy</th>
+            <th>Citation Name</th>
+            <th>Class</th>
+            <th>Effect. Date</th>
+            <th>Sunset Date</th>
+            <th>Status</th>
+            <th>RTS</th>
+            <th>Base Penalty</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          </tbody>
+      </table>
+    </div>
+  
+    <div class="footer">
+      <button>Exit</button>
+    </div>
+  </div>
