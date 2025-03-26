@@ -1,2 +1,21 @@
-<a routerLink="/citations">Go to Citations</a>
-<router-outlet></router-outlet>
+<div class="app-container">
+    
+  
+    <div class="content">
+     
+        <div class="explorer">
+            <h3>Citiation Maintainence</h3>
+            <button routerLink="/citations" class="explorer-button">List Citation</button>
+            <button class="explorer-button">Add Citation</button>
+            <button class="explorer-button">Run Reports</button>
+            <button class="explorer-button">Create / Modify Batch</button>
+            <button class="explorer-button">Operate on Batch</button>
+          </div>
+     
+  
+  
+      <div class="main-content">
+        <router-outlet></router-outlet>
+      </div>
+   
+  
